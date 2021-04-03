@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homie"
+    android:title="Home"
+    android:icon="@mipmap/ic_launcher_round"
+
+    />
+
+    <item
+        android:id="@+id/phone"
+        android:title="Phone Contact"
+        android:icon="@mipmap/ic_launcher_round"
+
+        />
+</menu>

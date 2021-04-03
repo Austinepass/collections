@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postList">
+    <fragment
+        android:id="@+id/postList"
+        android:name="com.example.task10.ui.PostList"
+        android:label="post_list"
+        tools:layout="@layout/post_list" >
+        <action
+            android:id="@+id/action_postList_to_postPage"
+            app:destination="@id/postPage" />
+        <action
+            android:id="@+id/action_postList_to_newPost"
+            app:destination="@id/newPost" />
+    </fragment>
+    <fragment
+        android:id="@+id/postPage"
+        android:name="com.example.task10.ui.PostPage"
+        android:label="post_page"
+        tools:layout="@layout/post_page">
+    <argument
+        android:name="position"
+        app:argType="integer" />
+        <action
+            android:id="@+id/action_postPage_to_commentPage"
+            app:destination="@id/commentPage" />
+    </fragment>
+
+            <fragment
+                android:id="@+id/newPost"
+                android:name="com.example.task10.ui.NewPost"
+                android:label="new_post"
+                tools:layout="@layout/new_post" />
+    <fragment
+        android:id="@+id/commentPage"
+        android:name="com.example.task10.ui.CommentPage"
+        android:label="comment_page"
+        tools:layout="@layout/comment_page" >
+        <action
+            android:id="@+id/action_commentPage_to_postPage"
+            app:destination="@id/postPage"
+            app:popUpTo="@id/postList" />
+        <argument android:name="position"
+            app:argType="integer" />
+    </fragment>
+</navigation>

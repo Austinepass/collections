@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapsFragment">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.task8.ui.MapsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/pokemonListFragment"
+        android:name="com.example.task7.ui.ListFragment"
+        android:label="ListFragment" >
+        <action
+            android:id="@+id/action_pokemonListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.task8.ui.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="id"
+            app:argType="string"
+            android:defaultValue="1" />
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="Biggy" />
+    </fragment>
+</navigation>

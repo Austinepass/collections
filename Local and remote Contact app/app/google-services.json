@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "494575161321",
+    "firebase_url": "https://ausidatabase-default-rtdb.firebaseio.com",
+    "project_id": "ausidatabase",
+    "storage_bucket": "ausidatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494575161321:android:12a69647f19f3326a00578",
+        "android_client_info": {
+          "package_name": "com.example.task6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494575161321-5k858dfmv6dr7rueshn8rlbspl2fbmr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAebe4O5A8mZ31YP-xLKnrVOGXk0KmctYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494575161321-5k858dfmv6dr7rueshn8rlbspl2fbmr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494575161321:android:7f0cf0a2641634f7a00578",
+        "android_client_info": {
+          "package_name": "com.example.viewpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494575161321-5k858dfmv6dr7rueshn8rlbspl2fbmr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAebe4O5A8mZ31YP-xLKnrVOGXk0KmctYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494575161321-5k858dfmv6dr7rueshn8rlbspl2fbmr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

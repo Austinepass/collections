@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task 5</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="number_text">234(0)7053368734</string>
+    <string name="dummy_email">your_email@mail.com</string>
+    <string name="gender">Gender</string>
+    <string name="submit">Submit</string>
+    <string name="profile">Profile</string>
+    <string name="dummy_text">TextView</string>
+</resources>

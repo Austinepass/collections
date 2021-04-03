@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/summary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FDD835"
+    tools:context=".SummaryActivity">
+
+    <TextView
+        android:id="@+id/profile"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+      />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/dummy_text"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/dummy_text"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/name_text_view" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/email_text_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/dummy_text"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/phone_text_view" />
+
+    <TextView
+        android:id="@+id/sex_text_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/dummy_text"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/email_text_view" />
+</LinearLayout>
