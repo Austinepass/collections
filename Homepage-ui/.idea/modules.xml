@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Week-4-Group-Task-TA-Droid.iml" filepath="$PROJECT_DIR$/.idea/modules/Week-4-Group-Task-TA-Droid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Week-4-Group-Task-TA-Droid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Week-4-Group-Task-TA-Droid.app.iml" />
+    </modules>
+  </component>
+</project>

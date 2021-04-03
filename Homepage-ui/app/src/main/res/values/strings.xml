@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Week-4-Group-Task-TA-Droid</string>
+    <string name="dummy_text">Lorem ipsum is simply dummy text for the printing and typesetiing industry</string>
+    <string name="date">18 March 2018</string>
+    <string name="toolbar_title">Home Page</string>
+    <string name="twitter_feeds">Twitter Feeds</string>
+    <string name="task_text">My Tasks</string>
+    <string name="date_pointer">date pointer</string>
+    <string name="_02">02</string>
+    <string name="days">Days</string>
+    <string name="_14">14</string>
+    <string name="hours">Hours</string>
+    <string name="_20">20</string>
+    <string name="minutes">Minutes</string>
+    <string name="reminder">reminder</string>
+    <string name="profile">profile</string>
+    <string name="settings">settings</string>
+
+    <string name="title_kiosk">Kiosk</string>
+    <string name="title_employee">Employee</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_admin">Admin</string>
+    <string name="time_text">07:06:05 PM</string>
+    <string name="date_text">Wed, 27 January 2021</string>
+    <string name="pin_code_text">Use pin code</string>
+    <string name="first_implementation">First Implementation</string>
+    <string name="Second_implementation">Second Implementation</string>
+</resources>

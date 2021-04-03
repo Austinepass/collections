@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <layout
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:title="Choose Opponent"
+            app:titleTextColor="@android:color/white">
+
+            <ImageView
+                android:id="@+id/my_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/night_and_dark" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout style="@style/ThirdLinearLayoutStyle">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:src="@drawable/aa" />
+
+                        <TextView
+                            style="@style/MyNameTextStyle"
+                            android:text="@string/becky_solomon" />
+
+                        <RatingBar
+                            style="@style/MyRatingBarStyle"
+                            android:numStars="5"
+                            android:progressTint="@color/gold"
+                            android:rating="5" />
+
+                        <TextView
+                            style="@style/MyNumberTextStyle"
+                            android:text="@string/_3387" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout style="@style/ThirdLinearLayoutStyle">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:src="@drawable/ad" />
+
+                        <TextView
+                            style="@style/MyNameTextStyle"
+                            android:text="@string/mark_dowell" />
+
+                        <RatingBar
+                            style="@style/MyRatingBarStyle"
+                            android:numStars="4"
+                            android:progressTint="@color/gold"
+                            android:rating="4" />
+
+                        <TextView
+                            style="@style/MyNumberTextStyle"
+                            android:text="@string/_2590" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout style="@style/ThirdLinearLayoutStyle">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:src="@drawable/ae" />
+
+                        <TextView
+                            style="@style/MyNameTextStyle"
+                            android:text="@string/son_heung_min" />
+
+                        <RatingBar
+                            style="@style/MyRatingBarStyle"
+                            android:numStars="2"
+                            android:progressTint="@color/gold"
+                            android:rating="2" />
+
+                        <TextView
+                            style="@style/MyNumberTextStyle"
+                            android:text="@string/_436" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout style="@style/ThirdLinearLayoutStyle">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:src="@drawable/ac" />
+
+                        <TextView
+                            style="@style/MyNameTextStyle"
+                            android:text="@string/pablo_gustavo" />
+
+                        <RatingBar
+                            style="@style/MyRatingBarStyle"
+                            android:numStars="5"
+                            android:progressTint="@color/gold"
+                            android:rating="5" />
+
+                        <TextView
+                            style="@style/MyNumberTextStyle"
+                            android:text="@string/_3002" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout style="@style/ThirdLinearLayoutStyle">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:src="@drawable/ab" />
+
+                        <TextView
+                            style="@style/MyNameTextStyle"
+                            android:text="@string/liza_fisher" />
+
+                        <RatingBar
+                            style="@style/MyRatingBarStyle"
+                            android:numStars="3"
+                            android:progressTint="@color/gold"
+                            android:rating="3" />
+
+                        <TextView
+                            style="@style/MyNumberTextStyle"
+                            android:text="@string/_1874" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView style="@style/MyCardViewStyle">
+
+                    <LinearLayout
+                        style="@style/ThirdLinearLayoutStyle"
+                        android:layout_height="match_parent"
+                        android:paddingTop="20dp">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/MyImageTextStyle"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/gradient"
+                            android:src="@drawable/add"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:id="@+id/name_text_view6"
+                            style="@style/MyNameTextStyle"
+                            android:layout_height="wrap_content"
+                            android:text="@string/add_new_opponent"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

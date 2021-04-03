@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Week2 Task App</string>
+    <string name="state">State: %1$d</string>
+    <string name="orientation">Orientation: %1$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_fragment_text">Add</string>
+    <string name="implementation_2">Implementation 2</string>
+    <string name="implementation_1">Implementation 1</string>
+    <string name="remove_fragment">Remove</string>
+    <string name="textview">TextView</string>
+    <string name="paused">Paused</string>
+    <string name="started">Started</string>
+    <string name="restarted">Restarted</string>
+    <string name="stopped">Stopped</string>
+    <string name="destroyed">Destroyed</string>
+    <string name="resumed">Resumed</string>
+    <string name="created">Created</string>
+</resources>
